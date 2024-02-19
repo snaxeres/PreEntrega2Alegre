@@ -1,0 +1,12 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: repeat(3, 300px);
+    padding: 15px;
+    gap: 15px;
+    place-items: end center;
+    grid-template-areas: 
+    'a3 a3 a6 a6'
+    'a3 a3 a4 a2'
+    'a5 a5 a1 a1' ;
+}
