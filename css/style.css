@@ -443,49 +443,6 @@ footer p {
   background-color: blanchedalmond;
 }
 
-body {
-  background-color: blanchedalmond;
-}
-
-.bg-bchmnd {
-  background-color: blanchedalmond;
-}
-
-.btn-primary {
-  background-color: blanchedalmond;
-  border-radius: 0;
-  color: #111;
-  font-size: 24px;
-  border: none;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn:active {
-  border: 2px solid blanchedalmond;
-  color: burlywood;
-  background-color: transparent;
-}
-
-.card {
-  border-radius: 0;
-  padding: 0;
-  width: 400px;
-  margin: 10px 0;
-}
-
-.card-img-top {
-  border-radius: 0;
-}
-
-.carousel-inner, .carousel-item {
-  height: 600px;
-}
-
-.carousel-item img {
-  height: 100%;
-  object-fit: cover;
-  width: 50%;
-}
-
 @media (max-width: 480px) {
   .hero article {
     width: 100%;
@@ -529,6 +486,49 @@ body {
     max-height: 100%;
   }
 }
+body {
+  background-color: blanchedalmond;
+}
+
+.bg-bchmnd {
+  background-color: blanchedalmond;
+}
+
+.btn-primary {
+  background-color: blanchedalmond;
+  border-radius: 0;
+  color: #111;
+  font-size: 24px;
+  border: none;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn:active {
+  border: 2px solid blanchedalmond;
+  color: burlywood;
+  background-color: transparent;
+}
+
+.card {
+  border-radius: 0;
+  padding: 0;
+  width: 400px;
+  margin: 10px 0;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.carousel-inner, .carousel-item {
+  height: 600px;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+  width: 50%;
+}
+
 .form {
   display: flex;
   flex-direction: row;
