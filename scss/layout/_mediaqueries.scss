@@ -1,3 +1,14 @@
+@media (max-width:300px) {
+  .hero article {
+      width: 100%;
+
+  }
+
+  .card {
+      width: 80%; 
+  }
+}
+
 @media (max-width:480px) {
     .hero article {
         width: 100%;
