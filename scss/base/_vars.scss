@@ -15,3 +15,9 @@ $mainFont: Arial, Helvetica, sans-serif;
         padding: 1px * $valor;
     }
 }
+
+@for $valor from 1 through 15 {
+    .gp-#{$valor} {
+        gap: 1px * $valor;
+    }
+}
