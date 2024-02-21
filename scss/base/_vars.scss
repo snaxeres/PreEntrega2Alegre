@@ -8,3 +8,10 @@ $primaryColor: bisque;
 $borderColor: white;
 
 $mainFont: Arial, Helvetica, sans-serif;
+
+
+@for $valor from 1 through 15 {
+    .pd-#{$valor} {
+        padding: 1px * $valor;
+    }
+}

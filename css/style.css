@@ -2,6 +2,66 @@
   background-color: blanchedalmond;
 }
 
+.pd-1 {
+  padding: 1px;
+}
+
+.pd-2 {
+  padding: 2px;
+}
+
+.pd-3 {
+  padding: 3px;
+}
+
+.pd-4 {
+  padding: 4px;
+}
+
+.pd-5 {
+  padding: 5px;
+}
+
+.pd-6 {
+  padding: 6px;
+}
+
+.pd-7 {
+  padding: 7px;
+}
+
+.pd-8 {
+  padding: 8px;
+}
+
+.pd-9 {
+  padding: 9px;
+}
+
+.pd-10 {
+  padding: 10px;
+}
+
+.pd-11 {
+  padding: 11px;
+}
+
+.pd-12 {
+  padding: 12px;
+}
+
+.pd-13 {
+  padding: 13px;
+}
+
+.pd-14 {
+  padding: 14px;
+}
+
+.pd-15 {
+  padding: 15px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -71,7 +131,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
 }
 .hero article {
   width: 60%;
@@ -228,8 +287,6 @@ body {
   color: white;
   width: 100%;
   height: 100%;
-  padding: 10px;
-  padding: 10px;
   display: grid;
   place-items: end start;
   opacity: 0.5;
@@ -286,7 +343,6 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 300px);
-  padding: 15px;
   gap: 15px;
   place-items: end center;
   grid-template-areas: "a3 a3 a6 a6" "a3 a3 a4 a2" "a5 a5 a1 a1";
@@ -307,7 +363,6 @@ body {
 .grid__contacto {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 15px;
   gap: 15px;
   place-items: end center;
   grid-template-areas: "c3 c3 c1 c1" "c2 c2 c1 c1" "c5 c5 c5 c5";
@@ -331,8 +386,6 @@ body {
   color: white;
   width: 100%;
   height: 100%;
-  padding: 10px;
-  padding: 10px;
   display: grid;
   place-items: end start;
   opacity: 0.5;
@@ -369,7 +422,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
 }
 .hero__crossfit article {
   width: 60%;
@@ -377,28 +429,18 @@ body {
 .hero__crossfit h1 {
   font-weight: bold;
 }
-.hero__crossfit-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
-}
 
 .hero__container__crossfit {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
   gap: 10px;
 }
 
 .box__crossfit {
   width: 100%;
   background-color: rgb(179, 160, 160);
-  padding: 10px;
   border: 2px solid white;
   display: flex;
   gap: 15px;
@@ -460,8 +502,6 @@ body {
   color: white;
   width: 100%;
   height: 100%;
-  padding: 10px;
-  padding: 10px;
   display: grid;
   place-items: end start;
   opacity: 0.5;
@@ -505,7 +545,6 @@ body {
 .grid__crossfit {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 15px;
   gap: 15px;
   place-items: end center;
   grid-template-areas: "a1 a1 a2 a2" "a3 a3 a2 a2" "a5 a5 a5 a5";
@@ -516,7 +555,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
   gap: 10px;
 }
 
