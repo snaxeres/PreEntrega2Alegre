@@ -22,11 +22,7 @@ $mainFont: Arial, Helvetica, sans-serif;
     }
 }
 
-.flexible {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 
 @mixin flexible($direction, $justify, $align) {
@@ -34,4 +30,10 @@ $mainFont: Arial, Helvetica, sans-serif;
     flex-direction: $direction;
     justify-content: $justify;
     align-items: $align;
+}
+
+@mixin images($width, $height) {
+    width: $width;
+    height: $height;
+    object-fit: cover;
 }

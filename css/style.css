@@ -122,12 +122,6 @@
   gap: 15px;
 }
 
-.flexible {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 * {
   padding: 0;
   margin: 0;
@@ -319,9 +313,9 @@ body {
 }
 
 .carousel-item img {
+  width: 50%;
   height: 100%;
   object-fit: cover;
-  width: 50%;
 }
 
 .box__boxeo {
