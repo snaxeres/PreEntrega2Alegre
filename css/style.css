@@ -122,7 +122,7 @@
   gap: 15px;
 }
 
-.flexible, .box__content__spinning, .hero__container__spinning, .box__crossfit2, .box__content__crossfit, .hero__container__crossfit, .hero__crossfit, .box__contacto, .box__boxeo, .box2, .hero {
+.flexible {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,10 +190,13 @@ body {
 }
 
 .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url(../assets/images/bodygym2.avif);
   background-size: cover;
   height: 600px;
-  flex-direction: column;
 }
 .hero article {
   width: 60%;
@@ -203,6 +206,10 @@ body {
 }
 
 .box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   font-weight: bold;
@@ -318,6 +325,10 @@ body {
 }
 
 .box__boxeo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   font-weight: bold;
@@ -412,6 +423,10 @@ body {
 }
 
 .box__contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   font-weight: bold;
@@ -455,7 +470,10 @@ body {
 }
 
 .hero__crossfit {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url(../assets/images/crossfit4.avif);
   background-size: cover;
   height: 500px;
@@ -468,7 +486,10 @@ body {
 }
 
 .hero__container__crossfit {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .box__crossfit {
@@ -509,11 +530,18 @@ body {
 }
 
 .box__content__crossfit {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 50%;
 }
 
 .box__crossfit2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
   font-weight: bold;
@@ -576,7 +604,10 @@ body {
 }
 
 .hero__container__spinning {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .box__spinning {
@@ -618,7 +649,10 @@ body {
 }
 
 .box__content__spinning {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 50%;
 }
 

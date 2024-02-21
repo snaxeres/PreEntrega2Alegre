@@ -22,10 +22,16 @@ $mainFont: Arial, Helvetica, sans-serif;
     }
 }
 
-//extend 
 .flexible {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
+@mixin flexible($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}

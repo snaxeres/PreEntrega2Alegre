@@ -1,6 +1,5 @@
 .hero__container__spinning {
-    @extend .flexible;
-    flex-direction: column;
+    @include flexible(column,center,center);
 }
 
 .box__spinning{
@@ -48,7 +47,6 @@
 
 
 .box__content__spinning {
-    @extend .flexible;
-    flex-direction: column;
+    @include flexible(column,center,center);
     width: 50%;
 }
