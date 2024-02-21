@@ -371,6 +371,20 @@ body {
   justify-content: center;
   padding: 10px;
 }
+.hero__crossfit article {
+  width: 60%;
+}
+.hero__crossfit h1 {
+  font-weight: bold;
+}
+.hero__crossfit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
 
 .hero__container__crossfit {
   display: flex;
@@ -557,6 +571,9 @@ body {
   .hero article {
     width: 100%;
   }
+  .hero__crossfit article {
+    width: 100%;
+  }
   .grid__boxeo {
     display: inherit;
   }
@@ -572,6 +589,9 @@ body {
 }
 @media (max-width: 480px) {
   .hero article {
+    width: 100%;
+  }
+  .hero__crossfit article {
     width: 100%;
   }
   .card {
