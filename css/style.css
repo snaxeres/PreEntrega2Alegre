@@ -385,7 +385,7 @@ body {
   width: 100%;
   background-color: rgb(179, 160, 160);
   padding: 10px;
-  border: 2px solid grey;
+  border: 2px solid white;
   display: flex;
   gap: 15px;
   transition: 0.5s;
@@ -510,7 +510,7 @@ body {
   width: 90%;
   background-color: rgb(179, 160, 160);
   padding: 15px;
-  border: 2px solid grey;
+  border: 2px solid white;
   display: flex;
   gap: 15px;
   transition: 0.5s;
