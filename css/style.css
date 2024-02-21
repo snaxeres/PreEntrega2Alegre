@@ -668,6 +668,9 @@ body {
   .grid__boxeo {
     display: inherit;
   }
+  .grid__contacto {
+    display: inherit;
+  }
   .card {
     width: 80%;
   }
@@ -692,6 +695,9 @@ body {
     display: inherit;
   }
   .grid__crossfit {
+    display: inherit;
+  }
+  .grid__contacto {
     display: inherit;
   }
   .box__spinning {
