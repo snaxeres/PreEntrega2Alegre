@@ -1,8 +1,6 @@
 .hero__container__spinning {
-    display: flex;
+    @extend .flexible;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .box__spinning{
@@ -50,8 +48,7 @@
 
 
 .box__content__spinning {
-    display: flex;
+    @extend .flexible;
     flex-direction: column;
-    justify-content: center;
     width: 50%;
 }

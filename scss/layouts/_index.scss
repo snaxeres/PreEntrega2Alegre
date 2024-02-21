@@ -3,13 +3,11 @@ body {
 }
 
 .hero {
+    @extend .flexible;
     background-image: url(../assets/images/bodygym2.avif);
     background-size: cover;
     height: 600px;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
     & article {
 
@@ -26,12 +24,10 @@ body {
 
 
 .box2 {
+    @extend .flexible;
     width: 100%;
     height: 100%;
     font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
     border-radius: 15px;
     border: 1px solid $borderColor;

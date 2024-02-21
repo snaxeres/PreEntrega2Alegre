@@ -21,3 +21,11 @@ $mainFont: Arial, Helvetica, sans-serif;
         gap: 1px * $valor;
     }
 }
+
+//extend 
+.flexible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
