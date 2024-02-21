@@ -370,7 +370,7 @@ footer p {
   background-color: bisque;
 }
 
-.hero2 {
+.hero__crossfit {
   background-image: url(../assets/images/crossfit4.avif);
   background-size: cover;
   height: 500px;
@@ -381,17 +381,26 @@ footer p {
   padding: 10px;
 }
 
-.box {
-  width: 90%;
+.hero__container__crossfit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.box__crossfit {
+  width: 100%;
   background-color: rgb(179, 160, 160);
-  padding: 15px;
+  padding: 10px;
   border: 2px solid grey;
   display: flex;
   gap: 15px;
   transition: 0.5s;
 }
 
-.box-img img {
+.box__img__crossfit img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -399,13 +408,13 @@ footer p {
   transition: 0.5s;
 }
 
-.box-img {
+.box__img__crossfit {
   width: 50%;
   height: 300px;
   overflow: hidden;
 }
 
-.box-content {
+.box__content__crossfit {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -413,24 +422,98 @@ footer p {
   width: 50%;
 }
 
-.box:hover img {
+.box__crossfit2 {
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 15px;
+  border: 1px solid white;
+}
+
+.box__crossfit2 div {
+  z-index: 3;
+  border-radius: 14px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  padding: 10px;
+  display: grid;
+  place-items: end start;
+  opacity: 0.5;
+}
+
+.box__crossfit2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(3px);
+  position: absolute;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px 2px rgba(255, 235, 205, 0.233);
+  border: 1px solid white;
+}
+
+.b1 {
+  grid-area: a1;
+}
+
+.b2 {
+  grid-area: a2;
+}
+
+.b3 {
+  grid-area: a3;
+}
+
+.grid__crossfit {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 15px;
+  gap: 15px;
+  place-items: end center;
+  grid-template-areas: "a1 a1 a2 a2" "a3 a3 a2 a2" "a5 a5 a5 a5";
+}
+
+.box__crossfit:hover img {
   filter: blur(0);
   width: 400px;
   height: 500px;
 }
 
-.box:hover {
+.box__crossfit:hover {
   background-color: cadetblue;
   box-shadow: 3px 3px 13px 5px rgba(20, 20, 73, 0.603);
 }
 
-.box:nth-child(even) {
+.box__crossfit:nth-child(even) {
   flex-direction: row-reverse;
   background-color: bisque;
 }
 
-.box:nth-child(even):hover {
+.box__crossfit:nth-child(even):hover {
   background-color: blanchedalmond;
+}
+
+.box__crossfit2:hover img {
+  filter: blur(0);
+  width: 100%;
+  height: 100%;
+}
+
+.box__crossfit2:hover {
+  background-color: cadetblue;
+  box-shadow: 3px 3px 13px 5px rgba(20, 20, 73, 0.603);
+}
+
+.box__crossfit2:nth-child(even) {
+  flex-direction: row-reverse;
+  background-color: bisque;
 }
 
 .hero__container__spinning {
