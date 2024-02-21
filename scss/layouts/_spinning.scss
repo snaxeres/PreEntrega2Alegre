@@ -12,8 +12,7 @@
 
     &:hover img {
         filter: blur(0);
-        width: 400px;
-        height: 500px;
+        @include images(400px,500px);
     }
 
     &:hover {
@@ -32,8 +31,7 @@
 }
 
 .box__img__spinning {
-    width: 50%;
-    height: 300px;
+    @include images(50%,300px);
     overflow: hidden;
 
     & img {
