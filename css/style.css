@@ -213,7 +213,6 @@ footer p {
   border-radius: 15px;
   border: 1px solid white;
 }
-
 .box__boxeo div {
   z-index: 3;
   border-radius: 14px;
@@ -227,7 +226,6 @@ footer p {
   place-items: end start;
   opacity: 0.5;
 }
-
 .box__boxeo img {
   width: 100%;
   height: 100%;
@@ -237,6 +235,19 @@ footer p {
   border-radius: 6px;
   box-shadow: 2px 2px 5px 2px rgba(255, 235, 205, 0.233);
   border: 1px solid white;
+}
+.box__boxeo:hover img {
+  filter: blur(0);
+  width: 100%;
+  height: 100%;
+}
+.box__boxeo:hover {
+  background-color: cadetblue;
+  box-shadow: 3px 3px 13px 5px rgba(20, 20, 73, 0.603);
+}
+.box__boxeo:nth-child(even) {
+  flex-direction: row-reverse;
+  background-color: bisque;
 }
 
 .c1 {
@@ -271,22 +282,6 @@ footer p {
   gap: 15px;
   place-items: end center;
   grid-template-areas: "a3 a3 a6 a6" "a3 a3 a4 a2" "a5 a5 a1 a1";
-}
-
-.box__boxeo:hover img {
-  filter: blur(0);
-  width: 100%;
-  height: 100%;
-}
-
-.box__boxeo:hover {
-  background-color: cadetblue;
-  box-shadow: 3px 3px 13px 5px rgba(20, 20, 73, 0.603);
-}
-
-.box__boxeo:nth-child(even) {
-  flex-direction: row-reverse;
-  background-color: bisque;
 }
 
 .ct1 {
