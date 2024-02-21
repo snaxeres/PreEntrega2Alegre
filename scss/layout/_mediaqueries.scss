@@ -12,6 +12,15 @@
       width: 80%; 
   }
 
+  .grid__crossfit {
+    display: inherit;
+  }
+
+  .box__crossfit {
+    width: 105%;
+  }
+  
+
 
   
 }
@@ -27,6 +36,10 @@
     }
 
     .grid__boxeo {
+      display: inherit;
+    }
+
+    .grid__crossfit {
       display: inherit;
     }
 
@@ -47,6 +60,10 @@
     display: flex;
     flex-direction: column;
   }
+
+  .grid__crossfit {
+    display: inherit;
+  }
 }
 
 @media (min-width:600px) {
@@ -58,6 +75,12 @@
     }
 
     .grid__boxeo {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .grid__crossfit {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -86,6 +109,12 @@
       flex-direction: column;
       width: 100%;
     }
+
+    .grid__crossfit {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
   }  
   
   @media (min-width:1024px) {
@@ -104,6 +133,10 @@
     }
 
     .grid__boxeo {
+      display: grid;
+    }
+
+    .grid__crossfit {
       display: grid;
     }
   }

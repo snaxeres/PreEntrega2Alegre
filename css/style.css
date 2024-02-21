@@ -587,6 +587,12 @@ footer p {
   .card {
     width: 80%;
   }
+  .grid__crossfit {
+    display: inherit;
+  }
+  .box__crossfit {
+    width: 105%;
+  }
 }
 @media (max-width: 480px) {
   .hero article {
@@ -596,6 +602,9 @@ footer p {
     width: 90%;
   }
   .grid__boxeo {
+    display: inherit;
+  }
+  .grid__crossfit {
     display: inherit;
   }
   .box__spinning {
@@ -613,6 +622,9 @@ footer p {
     display: flex;
     flex-direction: column;
   }
+  .grid__crossfit {
+    display: inherit;
+  }
 }
 @media (min-width: 600px) {
   .container {
@@ -622,6 +634,11 @@ footer p {
     grid-auto-flow: dense;
   }
   .grid__boxeo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .grid__crossfit {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -645,6 +662,11 @@ footer p {
     flex-direction: column;
     width: 100%;
   }
+  .grid__crossfit {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 @media (min-width: 1024px) {
   .form {
@@ -659,6 +681,9 @@ footer p {
     max-height: 100%;
   }
   .grid__boxeo {
+    display: grid;
+  }
+  .grid__crossfit {
     display: grid;
   }
 }
