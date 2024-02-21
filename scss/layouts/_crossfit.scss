@@ -41,11 +41,11 @@
 
     &:nth-child(even){
         flex-direction: row-reverse;
-        background-color: bisque;
+        background-color: $primaryColor;
     }
 
     &:nth-child(even):hover {
-        background-color: blanchedalmond;
+        background-color: $mainColor;
     }
 }
 
@@ -121,7 +121,7 @@
 
     &:nth-child(even){
         flex-direction: row-reverse;
-        background-color: bisque;
+        background-color: $primaryColor;
     }
 }
 
