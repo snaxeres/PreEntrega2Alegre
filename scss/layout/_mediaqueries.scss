@@ -11,6 +11,9 @@
   .card {
       width: 80%; 
   }
+
+
+  
 }
 
 @media (max-width:480px) {
@@ -25,6 +28,10 @@
 
     .grid__boxeo {
       display: inherit;
+    }
+
+    .box__spinning {
+      width: 105%;
     }
 }
 

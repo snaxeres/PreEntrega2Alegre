@@ -515,6 +515,9 @@ footer p {
   .grid__boxeo {
     display: inherit;
   }
+  .box__spinning {
+    width: 105%;
+  }
 }
 @media (max-width: 600px) {
   .container {
