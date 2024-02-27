@@ -466,6 +466,50 @@ body {
   background-color: bisque;
 }
 
+.form {
+  display: flex;
+  flex-direction: row;
+  background-color: blanchedalmond;
+  width: 100%;
+  padding: 50px 20px;
+  gap: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  grid-area: form;
+  height: 100%;
+  width: 100%;
+}
+.form iframe {
+  width: 50%;
+  height: 250px;
+}
+.form label {
+  font-size: 20px;
+  align-self: flex-end;
+}
+.form input {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  background-color: rgb(250, 200, 125);
+  border: 2px solid blanchedalmond;
+  color: blanchedalmond;
+}
+.form textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  background-color: rgb(250, 200, 125);
+  border: 2px solid blanchedalmond;
+  color: blanchedalmond;
+}
+
 .hero__crossfit {
   display: flex;
   flex-direction: column;
@@ -779,45 +823,6 @@ body {
   .grid__crossfit {
     display: grid;
   }
-}
-.form {
-  display: flex;
-  flex-direction: row;
-  background-color: blanchedalmond;
-  width: 100%;
-  padding: 50px 20px;
-  gap: 20px;
-}
-
-.form {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  grid-area: form;
-  height: 100%;
-  width: 100%;
-}
-
-.form iframe {
-  width: 50%;
-  height: 250px;
-}
-
-.form label {
-  font-size: 20px;
-  align-self: flex-end;
-}
-
-.form input,
-.form textarea {
-  width: 100%;
-  padding: 15px;
-  font-size: 20px;
-  background-color: rgb(250, 200, 125);
-  border: 2px solid blanchedalmond;
-  color: blanchedalmond;
 }
 
 /*# sourceMappingURL=style.css.map */
