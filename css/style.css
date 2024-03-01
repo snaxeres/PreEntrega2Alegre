@@ -475,39 +475,63 @@ body {
   gap: 20px;
 }
 
-.form {
+.form__container {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  grid-area: form;
+  background-color: blanchedalmond;
   height: 100%;
   width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 20px;
 }
-.form iframe {
+.form__container form {
+  padding: 30px 80px;
   width: 50%;
-  height: 250px;
+  display: flex;
+  flex-direction: column;
 }
-.form label {
-  font-size: 20px;
+.form__container h3 {
+  font-size: 24px;
+  color: grey;
+  margin-bottom: 24px;
+}
+.form__container p {
+  font-size: 18px;
+  color: grey;
+  margin-bottom: 24px;
+}
+.form__container iframe {
+  width: 50%;
+  height: 100vh;
+  align-self: center;
+}
+.form__container label {
+  font-size: 18px;
+  color: grey;
   align-self: flex-end;
+  margin-bottom: 15px;
 }
-.form input {
+.form__container input {
+  border: 0;
   width: 100%;
   padding: 15px;
   font-size: 20px;
-  background-color: rgb(250, 200, 125);
+  background: linear-gradient(45deg, rgb(93, 207, 181), transparent);
+  border-radius: 20px;
   border: 2px solid blanchedalmond;
   color: blanchedalmond;
+  outline: none;
 }
-.form textarea {
+.form__container textarea {
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   font-size: 20px;
-  background-color: rgb(250, 200, 125);
+  background: linear-gradient(45deg, rgb(93, 207, 181), transparent);
+  border-radius: 20px;
   border: 2px solid blanchedalmond;
   color: blanchedalmond;
+  outline: none;
 }
 
 .hero__crossfit {
