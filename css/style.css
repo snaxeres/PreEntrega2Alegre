@@ -466,15 +466,6 @@ body {
   background-color: bisque;
 }
 
-.form {
-  display: flex;
-  flex-direction: row;
-  background-color: blanchedalmond;
-  width: 100%;
-  padding: 50px 20px;
-  gap: 20px;
-}
-
 .form__container {
   display: flex;
   background-color: blanchedalmond;
@@ -742,6 +733,17 @@ body {
   .card {
     width: 80%;
   }
+  .form__container {
+    flex-direction: row-reverse;
+  }
+  form {
+    width: 50%;
+  }
+  .form__container iframe {
+    width: 50%;
+    min-height: 600px;
+    max-height: 100%;
+  }
   .grid__crossfit {
     display: inherit;
   }
@@ -758,6 +760,17 @@ body {
   }
   .card {
     width: 90%;
+  }
+  .form__container {
+    flex-direction: row-reverse;
+  }
+  form {
+    width: 50%;
+  }
+  .form__container iframe {
+    width: 50%;
+    min-height: 600px;
+    max-height: 100%;
   }
   .grid__boxeo {
     display: inherit;
@@ -779,6 +792,17 @@ body {
     grid-auto-rows: minmax(300px, auto);
     grid-auto-flow: dense;
   }
+  .form__container {
+    flex-direction: row-reverse;
+  }
+  form {
+    width: 50%;
+  }
+  .form__container iframe {
+    width: 50%;
+    min-height: 600px;
+    max-height: 100%;
+  }
   .grid__boxeo {
     display: flex;
     flex-direction: column;
@@ -793,6 +817,17 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     grid-auto-rows: minmax(300px, auto);
     grid-auto-flow: dense;
+  }
+  .form__container {
+    flex-direction: row-reverse;
+  }
+  form {
+    width: 50%;
+  }
+  .form__container iframe {
+    width: 50%;
+    min-height: 600px;
+    max-height: 100%;
   }
   .grid__boxeo {
     display: flex;
@@ -818,6 +853,17 @@ body {
   .nav-list {
     flex-direction: row;
   }
+  .form__container {
+    flex-direction: row-reverse;
+  }
+  form {
+    width: 50%;
+  }
+  .form__container iframe {
+    width: 50%;
+    min-height: 600px;
+    max-height: 100%;
+  }
   .grid__boxeo {
     display: flex;
     flex-direction: column;
@@ -830,13 +876,13 @@ body {
   }
 }
 @media (min-width: 1024px) {
-  .form {
+  .form__container {
     flex-direction: row-reverse;
   }
   form {
     width: 50%;
   }
-  .form iframe {
+  .form__container iframe {
     width: 50%;
     min-height: 600px;
     max-height: 100%;
